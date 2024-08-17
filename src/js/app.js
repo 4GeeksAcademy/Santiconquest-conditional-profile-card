@@ -36,7 +36,7 @@ function render(variables = {}) {
           <h1>${variables.name == null ? "Name" : variables.name} ${
     variables.lastName == null ? "Last Name" : variables.lastName
   }</h1>
-e          <h2>${variables.role == null ? "Role" : variables.role}</h2>
+          <h2>${variables.role == null ? "Role" : variables.role}</h2>
           <h3>${variables.city == null ? "City" : variables.city}, ${
     variables.country == null ? "Country" : variables.country
   }</h3>
